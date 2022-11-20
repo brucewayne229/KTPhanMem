@@ -139,7 +139,7 @@ namespace QuanLyBanHang
 
         private void btnXuatExcel_Click(object sender, EventArgs e)
         {
-            xuatfileExcel(dataHoaDon, @"E:\DA_PTPM_NHOM_3\", "fileThongKe");
+            xuatfileExcel(dataHoaDon, @"C:\Users\ADMIN\Desktop\QTDACNTT - Copy\", "fileThongKe");
             MessageBox.Show("Xuất file thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }

@@ -9,6 +9,6 @@ namespace QuanLyBanHang
 {
     class Connection
     {
-        public static SqlConnection connect = new SqlConnection(@"Data Source=DESKTOP-0RMQ8K1;Initial Catalog=PTPM_QLBanHang;Integrated Security=True");
+        public static SqlConnection connect = new SqlConnection(@"Data Source=DESKTOP-LH8ANBM\NGOCDAT;Initial Catalog=PTPL_QLBanHang;Integrated Security=True");
     }
 }

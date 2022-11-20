@@ -137,7 +137,7 @@ namespace QuanLyBanHang
         private void btnXuatExcel_Click(object sender, EventArgs e)
         {
                             // Đây là đường dẫn lưu file excel, tuỳ bạn muốn lưu ở đâu
-            xuatfileExcel(dataChiTietPhieuNhap, @"E:\Web Project\DA_PTPM_NHOM_3\", "ThongKePhieuNhap");
+            xuatfileExcel(dataChiTietPhieuNhap, @"C:\Users\ADMIN\Desktop\QTDACNTT - Copy\", "ThongKePhieuNhap");
             MessageBox.Show("Xuất file thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 

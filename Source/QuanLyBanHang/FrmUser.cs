@@ -88,5 +88,10 @@ namespace QuanLyBanHang
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void FrmUser_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
